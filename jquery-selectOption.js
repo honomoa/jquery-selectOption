@@ -53,10 +53,8 @@ jQuery.extend(jQuery.MoaSelectOption, {
 		},
         hideOption: function(selector){
 			this.memoValue();
-            jQuery(this.select).children().each(function(idx,e){
-                if(jQuery(e).filter(selector).length==1){
-                    jQuery(e).remove();
-                }
+            jQuery(this.select).children(selector).each(function(idx,e){
+                jQuery(e).remove();
             });
         },
         showOption: function(selector){
