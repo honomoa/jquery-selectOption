@@ -67,6 +67,7 @@ jQuery.extend(jQuery.MoaSelectOption, {
                     jQuery(_this.select).append(e);
                 }
             });
+			this.restoreMemoValue();
         },
         hideAllOption: function(){
 			this.memoValue();
