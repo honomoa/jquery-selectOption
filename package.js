@@ -2,7 +2,7 @@
 	"name": "jquery-selectOption",
 	"title": "jQuery Select Option Plugin",
 	"description": "cross platform toggle(show/hide) select>option element",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"homepage": "https://github.com/honomoa/jquery-selectOption",
 	"author": {
 		"name": "Moa Chung",
